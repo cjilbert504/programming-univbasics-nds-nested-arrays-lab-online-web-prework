@@ -26,7 +26,7 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  literal.sort = [["Don Gately",
+  literal = [["Don Gately",
   "Joelle van Dyne",
   "Pat M.",
   "Kate Gompert",
@@ -36,6 +36,8 @@ def array_literal_matrix
   "Mario Incandenza",
   "Michael Pemulis"]
   ]
+  return literal.sort
+end
 
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
